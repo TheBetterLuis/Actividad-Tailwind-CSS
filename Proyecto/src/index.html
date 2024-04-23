@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="shortcut icon" href="../assets/images/amazon-logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body class="font-amazon">
+
+    <div class="flex">
+        <!-- Sidebar -->
+        <input type="checkbox" name="sidebartoggle" id=""
+            class=" absolute right-0 left-[22px] top-20 peer w-5 h-5  checked:left-[330px] checked:top-4">
+
+        <aside class=" hidden peer-checked:block top-10 left-[22px] bg-amazonwhite ">
+
+            <div id="asidetitle"
+                class="font-amazonbold bg-amazonsquidink text-amazonwhite text-[19px] flex w-[19vw] justify-start items-center pt-3 pr-3 pb-3 pl-8 space-x-2 ">
+
+                <img src="../assets/images/icons8-male-user-24.png" width="30px" alt="">
+                <a href=""> Hello, sign in</a>
+
+            </div>
+
+            <div class="pt-[7px] px-0 pb-0 mt-4  mb-4  flex flex-col  justify-start ">
+
+                <a href="" class="mb-2  text-[18px] font-amazonbold ml-9">Digital Content & Devices</a>
+                <span class="py-2 hover:bg-slate-200"><a href="" class="mb-3  ml-9 mr-4 text-[14px] ">Amazon
+                        Music</a></span>
+
+                <span class="py-2 hover:bg-slate-200"><a href="" class="mb-3  ml-9 mr-4 text-[14px]  ">Kindle E-readers
+                        &
+                        Books</a></span>
+
+                <span class="py-2 hover:bg-slate-200"><a href="" class="mb-3  ml-9 mr-4 text-[14px] ">Amazon
+                        Appstore</a></span>
+
+
+            </div>
+
+            <hr class="text-slate-400">
+
+            <div class="pt-[7px] px-0 pb-0 mt-4  mb-4  flex flex-col  justify-start ">
+
+                <a href="" class="mb-2  text-[18px] font-amazonbold ml-9">Shop by Department</a>
+                <span class="py-2 hover:bg-slate-200"><a href=""
+                        class="mb-3  ml-9 mr-4 text-[14px] ">Electronics</a></span>
+
+                <span class="py-2 hover:bg-slate-200"><a href=""
+                        class="mb-3  ml-9 mr-4 text-[14px]  ">Computers</a></span>
+
+                <span class="py-2 hover:bg-slate-200"><a href="" class="mb-3  ml-9 mr-4 text-[14px] ">Smart
+                        Home</a></span>
+
+                <span class="py-2 hover:bg-slate-200"><a href="" class="mb-3  ml-9 mr-4 text-[14px] ">Arts &
+                        Crafts</a></span>
+
+
+            </div>
+            <hr class="text-slate-400">
+
+            <div class="pt-[7px] px-0 pb-0 mt-4  mb-4  flex flex-col  justify-start ">
+
+                <a href="" class="mb-2  text-[18px] font-amazonbold ml-9">Programs & Features</a>
+                <span class="py-2 hover:bg-slate-200"><a href="" class="mb-3  ml-9 mr-4 text-[14px] ">Gift
+                        Cards</a></span>
+
+                <span class="py-2 hover:bg-slate-200"><a href="" class="mb-3  ml-9 mr-4 text-[14px]  ">Shop By
+                        Interest</a></span>
+
+                <span class="py-2 hover:bg-slate-200"><a href="" class="mb-3  ml-9 mr-4 text-[14px] ">Amazon
+                        Live</a></span>
+
+                <span class="py-2 hover:bg-slate-200"><a href="" class="mb-3  ml-9 mr-4 text-[14px] ">International
+                        Shopping</a></span>
+
+
+            </div>
+            <hr class="text-slate-400">
+
+            <div class="pt-[7px] px-0 pb-0 mt-4  mb-4  flex flex-col  justify-start ">
+
+                <a href="" class="mb-2  text-[18px] font-amazonbold ml-9">Help & Settings</a>
+                <span class="py-2 hover:bg-slate-200"><a href="" class="mb-3  ml-9 mr-4 text-[14px] ">Your
+                        Account</a></span>
+
+                <span class="py-2 hover:bg-slate-200"><a href=""
+                        class="mb-3  ml-9 mr-4 text-[14px]  ">English</a></span>
+
+                <span class="py-2 hover:bg-slate-200"><a href="" class="mb-3  ml-9 mr-4 text-[14px] ">United
+                        States</a></span>
+
+                <span class="py-2 hover:bg-slate-200"><a href="" class="mb-3  ml-9 mr-4 text-[14px] ">Customer
+                        Service</a></span>
+
+                <span class="py-2 hover:bg-slate-200"><a href="" class="mb-3  ml-9 mr-4 text-[14px] ">Sign in</a></span>
+
+
+            </div>
+            <hr class="text-slate-400">
+
+
+
+        </aside>
+
+        <div id="pagecontainer" class=" box-border peer-checked:blur-[1px] ">
+
+            <a id="top"></a>
+            <!-- nav -->
+            <nav class=" navbartag text-amazonwhite">
+
+                <div id="navleft" class="navlefttag ">
+
+                    <div id="logo" class=" logotag">
+                        <img src="../assets/images/Amazon-Logo-White-Transparent.png" alt="" width="113px"
+                            class="imginsidelogo">
+                    </div>
+
+                    <div id="deliverto" class="delivertotag">
+
+                        <div id="imgdeliverto" class="imgdeliverto">
+                            <img src="../assets/images/location-icons8-location-24.png" alt="" height="18px">
+                        </div>
+
+                        <div id="delivertotext" class="delivertotext">
+                            <span class="text-[12px]">Deliver to</span> <span
+                                class="text-[14px] font-amazonbold">Venezuela</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div id="navfill" class="navfilltag">
+
+                    <div id="search" class="searchdiv">
+
+                        <div id="search-left" class="searchlefttag">
+
+                            <div class="flex">
+
+                                <input type="checkbox" name="checkboxxx" id="segundo"
+                                    class="mt-0  flex mr-[10px] mb-0 ml-[5px] peer checked:hidden ">
+
+                                <label for="" class=" peer-checked:hidden flex mt-0 mr-[10px] mb-0 ml-[5px]">All</label>
+
+                                <select name="#optionselect" id=""
+                                    class="   bg-[#e6e6e6] flex mt-0 mr-[10px] mb-0 ml-[5px] hidden peer-checked:block text-left ">
+
+                                    <option class="">All Departments</option>
+                                    <option class="">Arts & Crafts</option>
+                                    <option class="">Baby</option>
+                                    <option class="">Beauty & Personal Care</option>
+                                    <option class="">Books</option>
+                                    <option class="">Boy's Fashion</option>
+                                    <option class="">Computers</option>
+                                    <option class="">Deals</option>
+                                    <option class="">Digital Music</option>
+                                    <option class="">Electronics</option>
+                                    <option class="">Girl's Fashion</option>
+                                    <option class="">Health & Household</option>
+                                    <option class="">Home & Kitchen</option>
+                                    <option class="">Industrial & Scientific</option>
+                                    <option class="">Kindle Store</option>
+                                    <option class="">Luggage</option>
+                                    <option class="">Men's Fashion</option>
+                                    <option class="">Movies & TV</option>
+                                    <option class="">Home & Kitchen</option>
+                                    <option class="">Music, CDs & Vinyl</option>
+                                    <option class="">Pet Supplies</option>
+                                    <option class="">Prime Video</option>
+                                    <option class="">Software</option>
+                                    <option class="">Sports & Outdoors</option>
+                                    <option class="">Tools & Home Improvement</option>
+                                    <option class="">Toys & Games</option>
+                                    <option class="">Video Games</option>
+                                    <option class="">Women's Fashion</option>
+                                </select>
+
+                            </div>
+
+
+
+                        </div>
+
+                        <div id="search-middle" class="flex rounded w-full text-[16px] text-amazonnav ">
+                            <input id="searchmiddleinput" type="text" placeholder="Search Amazon"
+                                class="searchmiddleinput">
+                        </div>
+
+                        <div id="search-right" class="">
+                            <img src="../assets/images/mag-glass.png" alt="" class="h-full rounded-r">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="navright" class=" flex mt-[2px] mx-0 mb-0 p-t[3px] pb-0 pr-0">
+
+                    <div id="language"
+                        class="mt-0 mr-0 mb-0 ml-[1px] pt-0 px-[9px] pb-[5px] flex flex-col justify-center">
+
+                        <div class="flex justify-center space-x-1">
+
+                            <span id="USA"> <img src="../assets/images/icons8-usa-44.png" alt="" width="25px"></span>
+
+                            <span id="enLANGUAGE"
+                                class=" text-[14px] font-amazonbold flex flex-col justify-center">EN</span>
+
+                            <span id="arrow" class="flex flex-col justify-center"> <img
+                                    src="../assets/images/graytriangle.png" alt="" width="10px"> </span>
+
+                        </div>
+
+                    </div>
+
+                    <div id="signin&accounts" class="mt-0 mr-0 mb-0 ml-[6px]
+            pt-0 px-[9px] pb-[10px] flex flex-col justify-center">
+
+                        <div id="signin" class=" mt-[9px] mx-0 mb-0">
+                            <span class="text-[12px]">Hello, sign in</span>
+                        </div>
+
+                        <span class="text-[14px] font-amazonbold"> Account & Lists</span>
+
+
+                    </div>
+
+                    <div id="returns"
+                        class="mt-0 mr-0 mb-0 ml-[6px] pt-0 px-[9px] pb-[10px] flex flex-col justify-center">
+
+                        <span class="font-amazon text-[12px] mt-[9px] mx-0 mb-0">Returns</span>
+                        <span class="font-amazonbold text-[14px]">& Orders</span>
+                    </div>
+
+                    <div id="cart" class="mt-0 mr-[15px] mb-0 ml-[6px] pt-0 p-x[9px] pb-[11px] flex">
+                        <span class="flex flex-col justify-end"> <img src="../assets/images/icons8-cart-64.png" alt=""
+                                width="32px"> </span>
+                        <span class="text-[14px] font-amazonbold flex flex-col justify-end">Cart</span>
+                    </div>
+                </div>
+
+
+            </nav>
+
+            <!-- banner -->
+            <section id="banner"
+                class="flex text-center bg-amazonsquidink pl-[15px] font-amazon text-[14px] text-amazonwhite ">
+
+                <div id="hamburgermenu" class="mt-0 mr-[3px] mb-0 ml-0 py-[8px] px-[9px] flex text-center space-x-1 ">
+
+                    <span class="flex flex-col justify-center"><img src="../assets/images/icons8-hamburger-menu-50.png"
+                            alt="" width="17px"></span>
+                    <span class="flex flex-col justify-center font-amazonbold">All</span>
+
+                </div>
+
+                <div id="bannerlinks" class="flex text-center ">
+                    <a href="" class="nav-a">Today's Deals</a>
+                    <a href="" class="nav-a">Customer Service</a>
+                    <a href="" class="nav-a">Registry</a>
+                    <a href="" class="nav-a">Gift Cards</a>
+                    <a href="" class="nav-a">Sell</a>
+                </div>
+
+
+            </section>
+
+            <div id="container" class="flex  px-48 max-sm:px-2  bg-[#e3e6e6]   ">
+                <!-- main -->
+                <main>
+                    <div id=""
+                        class="bg-top text-amazonblack font-amazon bg-[url('../assets/images/backgrounds/background.jpg')] bg-no-repeat bg-contain ">
+
+
+                        <div class="grid grid-cols-4 gap-4 px-4 max-sm:grid-cols-1 pt-60 ">
+
+                            <div
+                                class="pt-[20px] px-0 pb-[15px] font-amazonbold text-[21px] bg-white pl-4 animate__animated animate__bounceInLeft">
+                                Gaming
+                                accesories
+
+                                <div class="grid grid-cols-2 pt-2 gap-3 font-amazon text-[12px] px-[10px] ">
+
+                                    <div class="pb-10 "><img class="cursor-pointer"
+                                            src="../assets/images/grids/headphones.jpg" alt="">
+                                        <a href="">Headsets</a>
+                                    </div>
+
+                                    <div class="pb-10 "><img class="cursor-pointer"
+                                            src="../assets/images/grids/keyboard.jpg" alt="">
+                                        <a href="">Keyboards</a>
+                                    </div>
+
+                                    <div class="pb-10 "><img class="cursor-pointer"
+                                            src="../assets/images/grids/mouse.jpg" alt="">
+                                        <a href="">Computer mice</a>
+                                    </div>
+
+                                    <div class="pb-10 "><img class="cursor-pointer"
+                                            src="../assets/images/grids/chair.jpg" alt="">
+                                        <a href="">Chairs</a>
+                                    </div>
+
+                                </div>
+
+                                <div class="text-[13px] text-[#007185] font-amazon"><a href="">See more</a></div>
+
+                            </div>
+
+                            <div class="pt-[20px] px-0 pb-[15px] font-amazonbold text-[21px] bg-white pl-4">
+                                Refresh your space
+
+                                <div class="grid grid-cols-2 pt-2 gap-3 font-amazon text-[12px] px-[10px] ">
+
+                                    <div class="pb-10 "><img class="cursor-pointer"
+                                            src="../assets/images/grids/dining.jpg" alt="">
+                                        <a href="">Dining</a>
+                                    </div>
+
+                                    <div class="pb-10 "><img class="cursor-pointer"
+                                            src="../assets/images/grids/home.jpg" alt="">
+                                        <a href="">Home</a>
+                                    </div>
+
+                                    <div class="pb-10 "><img class="cursor-pointer"
+                                            src="../assets/images/grids/kitchen.jpg" alt="">
+                                        <a href="">Kitchen</a>
+                                    </div>
+
+                                    <div class="pb-10 "><img class="cursor-pointer"
+                                            src="../assets/images/grids/healthandbeauty.jpg" alt="">
+                                        <a href="">Health and Beauty</a>
+                                    </div>
+
+                                </div>
+
+                                <div class="text-[13px] text-[#007185] font-amazon"><a href="">See more</a></div>
+
+                            </div>
+
+                            <div class="pt-[20px] px-0 pb-[15px] font-amazonbold text-[21px] bg-white pl-4 ">
+                                Deals in PCs
+                                <div class="grid grid-cols-1  font-amazon text-[12px] pr-4  pt-2">
+
+                                    <div class=""><img class="cursor-pointer"
+                                            src="../assets/images/grids/dealsinpcs.jpg" alt="">
+
+                                    </div>
+
+                                </div>
+
+                                <div class="text-[13px] text-[#007185] font-amazon pt-14"><a href="">Shop now</a></div>
+
+                            </div>
+
+                            <div class="pt-[20px] px-0 pb-[15px] font-amazonbold text-[21px] bg-white pl-4 pr-4">
+                                Amazon Gadget Store
+                                <div class="grid grid-cols-1 pt-2 gap-4 font-amazon  px-[10px] text-[15px] ">
+
+                                    <div class="pb-4 "><img class="cursor-pointer"
+                                            src="../assets/images/grids/smartphones.jpg" alt="">
+                                        <a href="">Smartphones</a>
+                                    </div>
+
+                                    <div class="grid grid-cols-3 gap-2">
+
+                                        <div class="pb-10 "><img class="cursor-pointer"
+                                                src="../assets/images/grids/tablets.jpg" alt="">
+                                            <a href="">Tablets</a>
+                                        </div>
+
+                                        <div class="pb-10 "><img class="cursor-pointer"
+                                                src="../assets/images/grids/laptops.jpg" alt="">
+                                            <a href="">Laptops</a>
+                                        </div>
+
+                                        <div class="pb-10 "><img class="cursor-pointer"
+                                                src="../assets/images/grids/tvs.jpg" alt="">
+                                            <a href="">TVs</a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="text-[13px] text-[#007185] pt-3 font-amazon"><a href="">
+                                        See more from Amazon Gadgets</a></div>
+
+                            </div>
+
+                            <div class="pt-[20px] px-0 pb-[15px] font-amazonbold text-[21px] bg-white pl-4">
+                                Shop deals in Fashion
+                                <div class="grid grid-cols-2  gap-3 pt-2 font-amazon text-[12px] px-[10px] ">
+
+                                    <div class="pb-10"><img class="cursor-pointer"
+                                            src="../assets/images/grids/jeansunder50.jpg" alt="">
+                                        <a href="">Jeans under $50</a>
+                                    </div>
+
+                                    <div class="pb-10"><img class="cursor-pointer"
+                                            src="../assets/images/grids/topsunder50.jpg" alt="">
+                                        <a href="">Tops under $25</a>
+                                    </div>
+
+                                    <div class="pb-10"><img class="cursor-pointer"
+                                            src="../assets/images/grids/dressesunder30.jpg" alt="">
+                                        <a href="">Dresses under $30</a>
+                                    </div>
+
+                                    <div class="pb-10"><img class="cursor-pointer"
+                                            src="../assets/images/grids/shoesunder50.jpg" alt="">
+                                        <a href="">Shoes under $50</a>
+                                    </div>
+
+                                </div>
+
+                                <div class="text-[13px] text-[#007185] font-amazon"><a href="">See all deals</a></div>
+
+                            </div>
+
+                            <div class="pt-[20px] px-0 pb-[15px] font-amazonbold text-[21px] bg-white pl-4 ">
+                                Gift for every Mom
+                                <div class="grid grid-cols-1  font-amazon text-[12px] pr-4  pt-2">
+
+                                    <div class=""><img class="cursor-pointer"
+                                            src="../assets/images/grids/giftforeverymom.jpg" alt="">
+
+                                    </div>
+
+                                </div>
+
+                                <div class="text-[13px] text-[#007185] font-amazon pt-14"><a href="">Shop gifts</a>
+                                </div>
+
+                            </div>
+
+                            <div class="pt-[20px] px-0 pb-[15px] font-amazonbold text-[21px] bg-white pl-4 ">
+                                Beauty steals under $25
+                                <div class="grid grid-cols-1  font-amazon text-[12px] pr-4  pt-2">
+
+                                    <div class=""><img class="cursor-pointer"
+                                            src="../assets/images/grids/beautystealsunder25.jpg" alt="">
+
+                                    </div>
+
+                                </div>
+
+                                <div class="text-[13px] text-[#007185] font-amazon pt-14"><a href="">Shop now</a></div>
+
+                            </div>
+
+                            <div class="pt-[20px] px-0 pb-[15px] font-amazonbold text-[21px] bg-white pl-4 ">
+                                Toys under $25
+                                <div class="grid grid-cols-1  font-amazon text-[12px] pr-4  pt-2">
+
+                                    <div class=""><img class="cursor-pointer"
+                                            src="../assets/images/grids/toysunder25.jpg" alt="">
+
+                                    </div>
+
+                                </div>
+
+                                <div class="text-[13px] text-[#007185] font-amazon pt-14"><a href="">Shop now</a></div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="flex flex-col gap-4 mx-4 my-8 bg-white">
+
+                            <div class="font-amazonbold text-[21px] pl-4 pt-3 ">
+                                <a href="">Best Sellers in Kitchen & Dining</a>
+                            </div>
+
+                            <div class="flex gap-6 px-4 py-6 overflow-x-auto">
+                                <img class="cursor-pointer" src="..//assets/images/rows1/1.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows1/2.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows1/3.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows1/4.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows1/5.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows1/6.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows1/7.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows1/8.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows1/9.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows1/10.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows1/11.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows1/12.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows1/13.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows1/14.jpg" alt="">
+
+
+                            </div>
+
+                        </div>
+
+                        <div class="flex flex-col gap-4 mx-4 my-8 bg-white">
+
+                            <div class="font-amazonbold text-[21px] pl-4 pt-3 ">
+                                <a href="">International top sellers in Home</a>
+                            </div>
+
+                            <div class="flex gap-6 px-4 py-6 overflow-x-auto">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/1.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/2.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/3.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/4.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/5.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/6.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/7.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/8.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/9.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/10.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/11.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/12.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/13.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/14.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/15.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/16.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/17.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/18.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/19.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/20.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/21.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/22.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/23.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/24.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/25.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/26.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/27.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/28.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/29.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/30.jpg" alt="">
+
+                            </div>
+
+                        </div>
+
+                        <div class="grid grid-cols-4 gap-4 px-4 pt-3 max-sm:grid-cols-1">
+
+                            <div class="pt-[20px] px-0 pb-[15px] font-amazonbold text-[21px] bg-white pl-4 ">
+                                Warm & welcoming decor
+
+                                <div class="grid grid-cols-2 pt-2 gap-3 font-amazon text-[12px] px-[10px] ">
+
+                                    <div class="pb-10 "><img class="cursor-pointer"
+                                            src="../assets/images/grids/wreath.jpg" alt="">
+                                        <a href="">Wreaths & garlands</a>
+                                    </div>
+
+                                    <div class="pb-10 "><img class="cursor-pointer"
+                                            src="../assets/images/grids/outdoordecor.jpg" alt="">
+                                        <a href="">Outdoor decor</a>
+                                    </div>
+
+                                    <div class="pb-10 "><img class="cursor-pointer"
+                                            src="../assets/images/grids/pillows.jpg" alt="">
+                                        <a href="">Pillows & throws</a>
+                                    </div>
+
+                                    <div class="pb-10 "><img class="cursor-pointer"
+                                            src="../assets/images/grids/wallart.jpg" alt="">
+                                        <a href="">Wall art & mirrors</a>
+                                    </div>
+
+                                </div>
+
+                                <div class="text-[13px] text-[#007185] font-amazon"><a href="">Shop more fall finds</a>
+                                </div>
+
+                            </div>
+
+                            <div class="pt-[20px] px-0 pb-[15px] font-amazonbold text-[21px] bg-white pl-4 a">
+                                Gaming merchandise
+
+                                <div class="grid grid-cols-2 pt-2 gap-3 font-amazon text-[12px] px-[10px] ">
+
+                                    <div class="pb-10 "><img class="cursor-pointer"
+                                            src="../assets/images/grids/apparel.jpg" alt="">
+                                        <a href="">Apparel</a>
+                                    </div>
+
+                                    <div class="pb-10 "><img class="cursor-pointer"
+                                            src="../assets/images/grids/hats.jpg" alt="">
+                                        <a href="">Hats</a>
+                                    </div>
+
+                                    <div class="pb-10 "><img class="cursor-pointer"
+                                            src="../assets/images/grids/action-figures.jpg" alt="">
+                                        <a href="">Action figures</a>
+                                    </div>
+
+                                    <div class="pb-10 "><img class="cursor-pointer"
+                                            src="../assets/images/grids/mugs.jpg" alt="">
+                                        <a href="">Mugs</a>
+                                    </div>
+
+                                </div>
+
+                                <div class="text-[13px] text-[#007185] font-amazon"><a href="">See more</a></div>
+
+                            </div>
+
+                            <div class="pt-[20px] px-0 pb-[15px] font-amazonbold text-[21px] bg-white pl-4 ">
+                                Player's paradise starts here
+                                <div class="grid grid-cols-1  font-amazon text-[12px] pr-4  pt-2">
+
+                                    <div class=""><img class="cursor-pointer"
+                                            src="../assets/images/grids/playerparadisestartshere.jpg" alt="">
+
+                                    </div>
+
+                                </div>
+
+                                <div class="text-[13px] text-[#007185] font-amazon pt-14"><a href="">Shop video
+                                        games</a></div>
+
+                            </div>
+
+                            <div class="pt-[20px] px-0 pb-[15px] font-amazonbold text-[21px] bg-white pl-4 ">
+                                Upgrade your office furniture
+                                <div class="grid grid-cols-1  font-amazon text-[12px] pr-4  pt-2">
+
+                                    <div class=""><img class="cursor-pointer"
+                                            src="../assets/images/grids/upgradeyourofficefurtniture.jpg" alt="">
+
+                                    </div>
+
+                                </div>
+
+                                <div class="text-[13px] text-[#007185] font-amazon pt-14"><a href="">Shop now</a></div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="flex flex-col gap-4 mx-4 my-8 bg-white">
+
+                            <div class="font-amazonbold text-[21px] pl-4 pt-3 ">
+                                <a href="">Top Sellers in Baby Products for you</a>
+                            </div>
+
+                            <div class="flex gap-6 px-4 py-6 overflow-x-auto">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/1.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/2.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/3.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/4.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/5.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/6.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/7.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/8.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/9.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/10.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/11.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/12.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/13.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/14.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/15.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/16.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/17.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/18.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/19.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/20.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/21.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/22.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/23.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/24.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/25.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/26.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/27.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/topsellersbaby/28.jpg" alt="">
+
+
+
+
+
+                            </div>
+
+                        </div>
+
+                        <div class="flex flex-col gap-4 mx-4 my-8 bg-white">
+
+                            <div class="font-amazonbold text-[21px] pl-4 pt-3 ">
+                                <a href="">Deals Under $25</a>
+                            </div>
+
+                            <div class="flex gap-6 px-4 py-6 overflow-x-auto">
+                                <img class="cursor-pointer" src="..//assets/images/dealsunder25/1.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/dealsunder25/2.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/dealsunder25/3.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/dealsunder25/4.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/dealsunder25/5.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/dealsunder25/6.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/dealsunder25/7.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/dealsunder25/8.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/dealsunder25/9.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/dealsunder25/10.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/dealsunder25/11.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/dealsunder25/12.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/dealsunder25/13.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/dealsunder25/14.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/dealsunder25/15.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/dealsunder25/16.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/dealsunder25/17.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/dealsunder25/18.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/dealsunder25/19.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/dealsunder25/20.jpg" alt="">
+
+
+
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="grid grid-cols-4 gap-4 px-4 pt-3 max-sm:grid-cols-1">
+
+
+                            <div class="pt-[20px] px-0 pb-[15px] font-amazonbold text-[17px] bg-white pl-4 ">
+                                Shop activity trackers and smartwatches
+                                <div class="grid grid-cols-1  font-amazon text-[12px] pr-4  pt-2">
+
+                                    <div class=""><img class="cursor-pointer"
+                                            src="../assets/images/grids/shopactivity.jpg" alt="">
+
+                                    </div>
+
+                                </div>
+
+                                <div class="text-[13px] text-[#007185] font-amazon pt-14"><a href="">Shop now</a></div>
+
+                            </div>
+
+                            <div class="pt-[20px] px-0 pb-[15px] font-amazonbold text-[21px] bg-white pl-4 ">
+                                Personal Care under $25
+                                <div class="grid grid-cols-1  font-amazon text-[12px] pr-4  pt-2">
+
+                                    <div class=""><img class="cursor-pointer"
+                                            src="../assets/images/grids/personalcareunder25.jpg" alt="">
+
+                                    </div>
+
+                                </div>
+
+                                <div class=" text-[13px] text-[#007185] font-amazon pt-14"><a href="">See more</a>
+                                </div>
+
+                            </div>
+
+                            <div class="pt-[20px] px-0 pb-[15px] font-amazonbold text-[21px] bg-white pl-4 ">
+                                Creating business solutions
+                                <div class="grid grid-cols-1  font-amazon text-[12px] pr-4  pt-2">
+
+                                    <div class=""><img class="cursor-pointer"
+                                            src="../assets/images/grids/creatingbusinesssolutions.jpg" alt="">
+
+                                    </div>
+
+                                </div>
+
+                                <div class="text-[13px] text-[#007185] font-amazon pt-14"><a href="">See more software
+                                        products</a></div>
+
+                            </div>
+
+                            <div class="pt-[20px] px-0 pb-[15px] font-amazonbold text-[21px] bg-white pl-4 ">
+                                A whole new way to work
+                                <div class="grid grid-cols-1  font-amazon text-[12px] pr-4  pt-2">
+
+                                    <div class=""><img class="cursor-pointer"
+                                            src="../assets/images/grids/Awholenewwaytowork.jpg" alt="">
+
+                                    </div>
+
+                                </div>
+
+                                <div class="text-[13px] text-[#007185] font-amazon pt-14"><a href="">Shop personal
+                                        computers</a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="flex flex-col gap-4 mx-4 my-8 bg-white">
+
+                            <div class="font-amazonbold text-[21px] pl-4 pt-3 ">
+                                <a href="">Popular products in PC internationally</a>
+                            </div>
+
+                            <div class="flex gap-6 px-4 py-6 overflow-x-auto">
+                                <img class="cursor-pointer"
+                                    src="..//assets/images/popularproductsinpcinternationally/1.jpg" alt="">
+                                <img class="cursor-pointer"
+                                    src="..//assets/images/popularproductsinpcinternationally/2.jpg" alt="">
+                                <img class="cursor-pointer"
+                                    src="..//assets/images/popularproductsinpcinternationally/3.jpg" alt="">
+                                <img class="cursor-pointer"
+                                    src="..//assets/images/popularproductsinpcinternationally/4.jpg" alt="">
+                                <img class="cursor-pointer"
+                                    src="..//assets/images/popularproductsinpcinternationally/5.jpg" alt="">
+                                <img class="cursor-pointer"
+                                    src="..//assets/images/popularproductsinpcinternationally/1.jpg" alt="">
+                                <img class="cursor-pointer"
+                                    src="..//assets/images/popularproductsinpcinternationally/1.jpg" alt="">
+                                <img class="cursor-pointer"
+                                    src="..//assets/images/popularproductsinpcinternationally/1.jpg" alt="">
+                                <img class="cursor-pointer"
+                                    src="..//assets/images/popularproductsinpcinternationally/1.jpg" alt="">
+                                <img class="cursor-pointer"
+                                    src="..//assets/images/popularproductsinpcinternationally/1.jpg" alt="">
+                                <img class="cursor-pointer"
+                                    src="..//assets/images/popularproductsinpcinternationally/1.jpg" alt="">
+                                <img class="cursor-pointer"
+                                    src="..//assets/images/popularproductsinpcinternationally/1.jpg" alt="">
+                                <img class="cursor-pointer"
+                                    src="..//assets/images/popularproductsinpcinternationally/1.jpg" alt="">
+                                <img class="cursor-pointer"
+                                    src="..//assets/images/popularproductsinpcinternationally/1.jpg" alt="">
+                                <img class="cursor-pointer"
+                                    src="..//assets/images/popularproductsinpcinternationally/1.jpg" alt="">
+                                <img class="cursor-pointer"
+                                    src="..//assets/images/popularproductsinpcinternationally/1.jpg" alt="">
+                                <img class="cursor-pointer"
+                                    src="..//assets/images/popularproductsinpcinternationally/1.jpg" alt="">
+                                <img class="cursor-pointer"
+                                    src="..//assets/images/popularproductsinpcinternationally/1.jpg" alt="">
+                                <img class="cursor-pointer"
+                                    src="..//assets/images/popularproductsinpcinternationally/1.jpg" alt="">
+
+
+                            </div>
+
+                        </div>
+
+                        <div class="flex flex-col gap-4 mx-4 my-8 bg-white">
+
+                            <div class="font-amazonbold text-[21px] pl-4 pt-3 ">
+                                <a href="">Popular products in Apparel internationally</a>
+                            </div>
+
+                            <div class="flex gap-6 px-4 py-6 overflow-x-auto">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/1.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/2.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/3.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/4.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/5.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/6.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/7.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/8.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/9.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/10.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/11.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/12.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/13.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/14.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/15.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/16.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/17.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/18.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/19.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/20.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/21.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/22.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/23.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/24.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/25.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/26.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/27.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/28.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/29.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/30.jpg" alt="">
+
+                            </div>
+
+                        </div>
+
+                        <div class="flex flex-col gap-4 mx-4 my-8 bg-white">
+
+                            <div class="font-amazonbold text-[21px] pl-4 pt-3 ">
+                                <a href="">Most wished for in Video Games</a>
+                            </div>
+
+                            <div class="flex gap-6 px-4 py-6 overflow-x-auto">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/1.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/2.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/3.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/4.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/5.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/6.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/7.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/8.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/9.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/10.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/11.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/12.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/13.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/14.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/15.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/16.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/17.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/18.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/19.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/20.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/21.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/22.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/23.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/24.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/25.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/26.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/27.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/28.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/29.jpg" alt="">
+                                <img class="cursor-pointer" src="..//assets/images/rows2/30.jpg" alt="">
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </main>
+            </div>
+            <!-- Back to top -->
+
+
+            <section id="banner"
+                class="flex  justify-center text-center bg-amazonsquidink font-amazon text-[14px] text-amazonwhite">
+
+
+                <div id="backtotop" class="flex justify-center text-center">
+                    <a href="#top" class="backtotop">Back To Top</a>
+                </div>
+
+
+            </section>
+
+            <!-- footer -->
+            <footer>
+
+            </footer>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $('.imagecarousel').slick();
+    </script>
+
+
+</body>
+
+</html>
