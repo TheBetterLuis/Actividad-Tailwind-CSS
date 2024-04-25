@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <link href="https://unpkg.com/aos@next/dist/aos.js" rel="stylesheet"> -->
+
 </head>
 
 
@@ -15,7 +18,7 @@
 
 <body class="font-amazon">
 
-    <div id="mobile" class="flex">
+    <div id="mobile" class="flex ">
 
 
 
@@ -85,7 +88,7 @@
                 <main
                     class="bg-[url('../assets/images/backgrounds/backgroundmobile.jpg')] bg-no-repeat bg-contain bg-[#E3E6E6]">
 
-                    <section class="flex flex-col px-4 py-4 pt-56">
+                    <section class="flex flex-col px-4 py-4 pt-56" data-aos="fade-left">
 
                         <span class="bg-[#ffffff] font-bold text-[21px] pt-2 pl-2">Gaming accesories</span>
 
@@ -115,7 +118,7 @@
                         <span class="bg-[#ffffff] text-[13px] text-[#007185] pt-2 pl-4 pb-2">See more</span>
                     </section>
 
-                    <section class="flex flex-col px-4 py-4 pt-1">
+                    <section class="flex flex-col px-4 py-4 pt-1" data-aos="fade-left">
 
                         <span class="bg-[#ffffff] font-bold text-[21px] pt-2 pl-2">Refresh your space</span>
 
@@ -145,7 +148,7 @@
                         <span class="bg-[#ffffff] text-[13px] text-[#007185] pt-2 pl-4 pb-2">See more</span>
                     </section>
 
-                    <section class="flex flex-col px-4 py-4 pt-1">
+                    <section class="flex flex-col px-4 py-4 pt-1" data-aos="fade-left">
 
                         <span class="bg-[#ffffff] font-bold text-[21px] pt-2 pl-2">Deals in PCs</span>
 
@@ -738,7 +741,11 @@
 
     </div>
 
+    <!--Script de AOS insertado por CDN-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+    <!--Iniciar Script-->
+    <script> AOS.init(); </script>
 
 </body>
 
